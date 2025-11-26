@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Student Attendance Management System",
+    "desc": "A PHP-MySQL web app for easy and centralized student attendance management with Admin, Teacher, and Student panels.",
+    "image": "../projects/images/project6.png",
+   
+    "links": {
+      "view": "https://drive.google.com/file/d/17xALoSQX8rQ5AwmysFlJj3DxJyVcfwyc/view?usp=sharing"
+      
+    }
+  },
+    
+  {
+    "name": "Color Detection",
+    "desc": "Developed an application that allows users to identify the name of a color in an image by clicking on the image.",
+    "image": "../projects/images/project3.png",
+   
+    "links": {
+      "view": "https://drive.google.com/file/d/1WZB1kexS82hfY_yFyhgVEr3uN7aOCaWW/view?usp=sharing",
+      "code": "https://github.com/lalankumar17/Color-Detection"
+    }
+  },
+
+  {
+    "name": "Simulation On Traffic Signal",
+    "desc": "Developed Traffic Signal Application to simulate and optimize urban traffic flow through a computer-generated model using OpenGL.",
+    "image": "../projects/images/project1.png",
+   
+    "links": {
+      "view": "https://drive.google.com/file/d/1G0AHyMrjIwbthEVA2QlOOrTj4R3ZmWUr/view?usp=sharing",
+      "code": "https://github.com/lalankumar17/OpenGL-Programming"
+    }
+  },
+
+  {
+    "name": "Rigid Force Motor Game Using Unity",
+    "desc": "Developed a Unity 3D game in C# with single-player (vs. AI) and multiplayer modes.",
+    "image": "../projects/images/project2.png",
+   
+    "links": {
+      "view": "https://drive.google.com/file/d/1xYMAljxrTPXJDSBhBtLIlN7pWCdEQAz-/view?usp=sharing",
+      "video": "https://drive.google.com/file/d/1rMT1_dwYpmsTDLPb02RfoPMlj5WWYQj9/view?usp=sharing"
+    }
+  },
+
+  
+  {
+    "name": "Disk Scheduling Simulator",
+    "desc": "This project uses HTML, CSS, and JavaScript to create a modern, interactive web-based Disk Scheduling Simulator.",
+    "image": "../projects/images/project4.png",
+   
+    "links": {
+      "view": "https://drive.google.com/file/d/1P9napq7scj7zeWDLVdUi1o8SJ_qrfkK4/view?usp=sharing",
+      "code": "https://github.com/lalankumar17/Disk-Scheduling-Simulator"
+    }
+  },
+
+  {
+    "name": "TBomb (Text Bomb)",
+    "desc": "TBomb is a free tool that sends spam SMS or calls to any number using internet services. Just enter the target number — no signup needed.",
+    "image": "../projects/images/project5.png",
+    "links": {
+      "view": "https://drive.google.com/drive/folders/1X90H4Qsl-CFmhtnZ1NhFweNA4bN7PNko?usp=sharing",
+      "code": "https://colab.research.google.com/drive/1xw2WRngEveQAC7s2_Y7FP6zzymgKpILr?usp=sharing"
+    }
+  }
+  
+]
