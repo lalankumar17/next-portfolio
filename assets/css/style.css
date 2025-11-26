@@ -732,12 +732,6 @@ body.menu-open {
     gap: 1.5rem;
     padding: 1.5rem 0;
   }
-
-  /* Move About section up in mobile view */
-  .about {
-    padding-top: 0rem !important;
-    margin-top: -9rem;
-  }
 }
 
 /* Ensure navbar works on touch devices */
