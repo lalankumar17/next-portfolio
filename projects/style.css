@@ -477,8 +477,19 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #ff004f;
+  color: #ff69b4;
   padding: 0.5rem 0;
+}
+
+/* PROJECTS link specific styling - pink color only on hover/active */
+header .navbar ul li a[href*="projects"]:hover,
+header .navbar ul li a[href*="projects"]:hover:not(.no-override) {
+  color: #ff69b4 !important;
+}
+
+header .navbar ul li a[href*="projects"].active,
+header .navbar ul li a[href*="projects"].active:not(.no-override) {
+  color: #ff69b4 !important;
 }
 
 /* Navigation separator styling */

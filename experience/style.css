@@ -111,7 +111,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.7rem 7%;
+  padding: 1.7rem 7% 1.7rem 7%;
   height: 6.5rem;
   background-color: var(--navbar-bg);
   backdrop-filter: blur(10px);
@@ -590,6 +590,10 @@ header .logo:hover span {
   animation-play-state: paused;
 }
 
+header .navbar {
+  margin-left: auto;
+}
+
 header .navbar ul {
   list-style: none;
   display: flex;
@@ -620,8 +624,30 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #ff004f;
+  color: #ff69b4;
   padding: 0.5rem 0;
+}
+
+/* PROJECTS link specific styling - pink color only on hover/active */
+header .navbar ul li a[href*="projects"]:hover,
+header .navbar ul li a[href*="projects"]:hover:not(.no-override) {
+  color: #ff69b4 !important;
+}
+
+header .navbar ul li a[href*="projects"].active,
+header .navbar ul li a[href*="projects"].active:not(.no-override) {
+  color: #ff69b4 !important;
+}
+
+/* TIMELINE link specific styling - pink color only on hover/active */
+header .navbar ul li a[href*="experience"]:hover,
+header .navbar ul li a[href*="experience"]:hover:not(.no-override) {
+  color: #ff69b4 !important;
+}
+
+header .navbar ul li a[href*="experience"].active,
+header .navbar ul li a[href*="experience"].active:not(.no-override) {
+  color: #ff69b4 !important;
 }
 
 /* navbar ends */
